@@ -1,11 +1,50 @@
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-main {
-  flex: 1 0 auto;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* Style the header with a background and some padding */
@@ -14,18 +53,19 @@ main {
     /* border-style: solid;
     border-color: white;
     border-width: 1px; */
-    margin: 0;
     background-color: black;
-    padding: 0px 10px;
-    height: 138px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    height: 70px;
     width: 95%;
     position: fixed;
+    opacity: 0.85;
 
   }
   .artist {
       color: white;
-      font-family: Garamond;
-      font-weight:700;
+      font-family: 'Playfair Display SC', serif;
+      font-size: 50px;
   }
   /* Style the header links */
   .header a {
@@ -34,15 +74,18 @@ main {
     padding: 12px;
     text-decoration: none;
     font-family: Helvetica;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 25px;
     border-radius: 4px;
+    text-transform: uppercase;
   }
   .navbar li {
     display: inline-block;
     color: white;
  
 }
+
+
   
   /* Change the background color on mouse-over */
   .header a:hover {
@@ -75,7 +118,7 @@ main {
  
   body {
     background-color: black;
-    margin: 0, 5px;
+    margin: 0;
   }
 
   .heightset {
@@ -104,8 +147,17 @@ img {
   }
   /* Style paragraph */
   p {
-    padding-top: 138px;
+    padding-top: 110px;
   }
+
+  /* Style store image */
+  .store img{
+    display: block;
+    margin: 0 auto;
+    max-width: 850px;
+  
+  }
+
   /* Style footer */
   footer {
     position:fixed;
