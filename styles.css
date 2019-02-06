@@ -1,9 +1,20 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 /* Style the header with a background and some padding */
 .header {
     overflow: hidden;
-    border-style: solid;
+    /* border-style: solid;
     border-color: white;
-    border-width: 1px;
+    border-width: 1px; */
+    margin: 0;
     background-color: black;
     padding: 0px 10px;
     height: 138px;
@@ -64,6 +75,7 @@
  
   body {
     background-color: black;
+    margin: 0, 5px;
   }
 
   .heightset {
@@ -95,17 +107,17 @@ img {
     padding-top: 138px;
   }
   /* Style footer */
-  .footer {
-    overflow: hidden;
-    background-color: black;
-    padding: 0px 20px;
-    height: 100px;
-    width: 100%;
-    position: fixed;
-  }
-  /* Style footer icons */
-  .footer img {
-    max-height: 10px;
+  footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:black;
+ }
+  
+  .social img {
     float: right;
-    padding-bottom: 120px;
+    height: 24px;
   }
+  
