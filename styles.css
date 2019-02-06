@@ -7,7 +7,8 @@
     background-color: black;
     padding: 0px 10px;
     height: 138px;
-    width: 100%;
+    width: 95%;
+    position: fixed;
 
   }
   .artist {
@@ -88,4 +89,23 @@ img {
     img {
       max-width: 24%;
     }
+  }
+  /* Style paragraph */
+  p {
+    padding-top: 138px;
+  }
+  /* Style footer */
+  .footer {
+    overflow: hidden;
+    background-color: black;
+    padding: 0px 20px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+  }
+  /* Style footer icons */
+  .footer img {
+    max-height: 10px;
+    float: right;
+    padding-bottom: 120px;
   }
