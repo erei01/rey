@@ -93,12 +93,10 @@ table {
     color: gold;
   }
   
-  /* Style the active/current link
+  /* Style the active/current link */
   .header a.active {
-    background-color: dodgerblue;
-    color: white;
-  } */
-  
+    color: gold;
+  }
   /* Float the link section to the right */
   .header-right {
     float: right;
